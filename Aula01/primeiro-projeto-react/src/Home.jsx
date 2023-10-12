@@ -1,6 +1,6 @@
 
 
-function App() {
+function Home() {
   return (
     <div>
       <h1>Lista de Compras</h1>
@@ -8,4 +8,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
