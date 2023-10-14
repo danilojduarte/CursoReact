@@ -1,13 +1,14 @@
-import { useRef } from 'react'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
+
 
 
 
 function Home() {
+  const [produtos, setProdutos] = useState([])
   const inputRef = useRef()
 
   function cliqueiNoBotao() {
-    produtos.push(inputRef.current.value)
+    setProdutos([inputRef.current.value])
   }
   return (
     <div>
